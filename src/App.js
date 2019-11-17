@@ -10,9 +10,10 @@ import Cart from './Components/Cart';
 import Aboutus from './Components/Aboutus';
 import His from './Components/His';
 import Hers from './Components/Hers';
+import Modal from './Components/Modal';
 
-
-function App() {
+class App extends React.Component {
+  render() {
   return (
     <React.Fragment> 
       <Navbar />
@@ -26,9 +27,9 @@ function App() {
         
         <Route component={Default} />
       </Switch>
-      
+      <Modal />
     </React.Fragment>
   );
 }
-
+}
 export default App;

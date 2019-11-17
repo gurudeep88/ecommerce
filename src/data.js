@@ -93,12 +93,12 @@ export const storeProducts = [
 export const detailProduct = 
     {
         id: 1,
-        title: "Google Pixel - White",
-        img: "../public/images/image1.jpg",
-        price: 299,
-        company: "Google",
-        info:"lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum.",
-        inCart: false,
+        title: "Vsmarty - Type-I",
+        img: "images/jeans1.jpg",
+        price: 899,
+        company: "Vsmarty",
+        info:"lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum.",
+        inCart: true,
         count: 0,
         total: 0, 
     };
